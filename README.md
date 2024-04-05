@@ -5,8 +5,8 @@ https://www.ovhcloud.com/en/
 
 3. SSH to the created instance and run this command to download preparation script
 
-1)sudo apt install wget -y
-2)wget https://github.com/od8ssa/ionet/blob/main/prepare.sh
+1) sudo apt install wget -y
+2) wget https://github.com/od8ssa/ionet/blob/main/prepare.sh
 
 4. Execute script to create VM for ionet worker depolyment
 
