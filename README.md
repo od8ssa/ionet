@@ -13,7 +13,9 @@ https://www.ovhcloud.com/en/
 1) chmod +x prepare.sh
 2) ./prepare.sh
 
-5. Open console of the created VM
+5. Reconnect to the instance
+
+6. Open console of the created VM
 virsh console ionet
 user: user
 password: user
