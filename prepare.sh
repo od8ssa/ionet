@@ -14,7 +14,7 @@ echo "Updating packages..."
 sudo apt update -y && sudo apt upgrade -y
 
 # Update GRUB and reboot
-echo "Updating GRUB and rebooting..."
+echo "Updating GRUB"
 sudo update-grub
 
 # Install KVM and related packages
