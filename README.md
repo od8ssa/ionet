@@ -15,5 +15,7 @@ https://www.ovhcloud.com/en/
 
 5. Open console of the created VM
 virsh console ionet
+user: user
+password: user
 
 Follow the instructions on the io.net website to connect the worker!
