@@ -96,7 +96,8 @@ cloud-localds -v --network-config=network-config ~/kvm/ionet/ionet-seed.qcow2 us
 # Provide access to files
 echo "Providing access to files..."
 sudo setfacl -m u:libvirt-qemu:rx $PWD
-sudo setfacl -m u:libvirt-qemu:rx $PWD/*
+sudo setfacl -m u:libvirt-qemu:rx $PWD/kvm
+sudo setfacl -m u:libvirt-qemu:rx $PWD/kvm/*
 
 # Create and start virtual machine
 echo "Creating and starting virtual machine..."
