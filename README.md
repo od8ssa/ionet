@@ -13,7 +13,7 @@ https://www.ovhcloud.com/en/
 1) chmod +x prepare.sh
 2) ./prepare.sh
 
-5)Reconnect to the instance
+5)Reconnect to the instance, run script again
 
 6)Open console of the created VM
 1) virsh console ionet
